@@ -1,0 +1,32 @@
+html {
+	background-image: url(Images/Frogger.png);
+	background-position: center center;
+}
+
+body {
+	width: 80%;
+	background-color: white;
+	margin: auto;
+}
+
+footer {
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+h2
+{
+	padding-left : 30px;
+}
+p
+{
+	padding-left : 30px;
+	padding-right : 30px;
+}
+
+#game {
+	margin: auto;
+	display: block;
+}

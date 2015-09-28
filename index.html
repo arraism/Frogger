@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="author" content="Arraism" />
+<meta name="description"
+	content="Mini-projet Frogger en HTML5 et javascipt" />
+<meta name="keywords" content="Frogger" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>Frogger by Arraism</title>
+<script type="text/javascript" src="js/Map.js"></script>
+<script type="text/javascript" src="js/Frog.js"></script>
+<script type="text/javascript" src="js/Game.js"></script>
+<script type="text/javascript" src="js/Car.js"></script>
+<script type="text/javascript" src="js/Stick.js"></script>
+<script type="text/javascript" src="js/SafeZone.js"></script>
+<script type="text/javascript" src="js/Init.js"></script>
+<script type="text/javascript">
+	window.onload = function() {
+		init();
+		Timer();
+	}
+</script>
+</head>
+<body>
+
+	<header>
+		<h1>Frogger</h1>
+	</header>
+
+	<canvas id="game" width="650px" height="450px"></canvas>
+	
+	<h2>Informations</h2>
+	<p>Pour profiter de certains effets sonores, il est préférable d'utiliser le navigateur Google Chrome.</p>
+	
+	<h2>But du jeu</h2>
+	<p>Dans Frogger, le but est de traverser une route encombrée de
+		voiture, avec une grenouille, sans vous faire écraser par les
+		voitures. Après avoir traversé la route et vous être rendus de l'autre
+		côté de celle-ci, vous devrez traverser une rivière en sautant de
+		tronc d'arbre en tronc d'arbre pour remplir les différentes cases de
+		l'autre côté de la rivière.</p>
+
+	<h2>Contrôles</h2>
+	<p>Utilisez les flèches pour vous déplacer.</p>
+
+	<h2>Musiques</h2>
+	<p>
+		Les musiques sont tirées de l'album <a
+			href="http://www.8bitpeoples.com/discography/by/bit_shifter">Information
+			Chase</a> de Bit Shifter.
+	</p>
+	
+	<footer>
+		<p>© Arraism</p>
+	</footer>
+
+</body>
+</html>
